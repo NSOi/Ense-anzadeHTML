@@ -218,7 +218,7 @@ nav ul #publicar_nav a
 	border-radius: 0 0 0.5em 0.5em;
 	left: 3%;
 	margin-top: 3px; 
-	padding: 0.5em 1em;
+	padding: 0.2em 1em;
 	position: absolute;
 	right: 3%;
 	top: 100%;
@@ -234,7 +234,23 @@ nav ul #publicar_nav a
 	text-decoration: none;
 }
 
+@media screen and (min-width: 800px){
+	#contenido
+	{
+		overflow: hidden;
+	}
+	#contenido .item
+	{
+		width: 49%;
+		float: left;
 
+	}
+	#contenido .item:nth-child(odd)
+	{
+		margin-right: 2%;
+
+	}
+}
 
 
 
