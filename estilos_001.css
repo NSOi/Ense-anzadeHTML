@@ -45,9 +45,10 @@ header figure
 }
 header h1
 {
+	border: 1px solid red;
 	font-size: 1.2em;
 	font-weight: normal;
-	margin: 0 70px 0 0;
+	margin: 0 70px 0 110px;
 }
 header #avatar
 {
@@ -63,6 +64,8 @@ header #avatar img
 }
 header #logo img
 {
+	
+	border: 1px solid red;
 	border-right: 1px solid white;
 	padding-right: 0.5em;
 	margin-right: 0.5em;
